@@ -1,0 +1,331 @@
+* {
+    height: 0px;
+    line-height: 10px;
+    width: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+html {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body { 
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+header {
+    height: 100px;
+    width: 1000px;
+    padding: 20px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.barraSearch {
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.logo {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    /* border: 1px red solid; */
+    height: 50px;
+    width: 50px;
+    background-color: #00d1b2;
+    color: aqua;
+}
+.logo h1 {
+    height: 40px;
+    font-size: 3em;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 6em;
+}
+.cajaSearchSignInCarro {
+    height: 50px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.searchLupa {
+    height: 50px;
+    width: 100%;
+    border: 2px gray solid;
+    border-radius: 25px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.searchLupa input {
+    height: 50px;
+    width: 100%;
+    margin: 0px 30px;
+}
+.searchLupa img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+.signInCarro {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.signInCarro span {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.signInCarro img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+.categorias {
+    height: 60px;
+    width: 1000px;
+    border-bottom: 4px black solid;
+}
+.categorias ul {
+    height: 50px;
+    padding-bottom: 10px ;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+}
+.categorias ul li {
+    list-style: none;
+    height: auto;
+    width: auto;
+    font-weight: bold;
+}
+/*****************FIN CABECERA*******************/
+main {
+    height: 800px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.titulo {
+    height: 40px;
+    width: 1000px;
+}
+.titulo h2{
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.cuadroCentral {
+    
+    height: 300px;
+    width: 1000px;
+    margin: 20px 0px; 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start
+}
+.discoverMasImagenCentral {
+    
+    height: 300px;
+    width: 640px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.textoDiscover {
+    
+    height: 320px;
+    width: 320px;
+    background-color: #00d1b2;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.textoDiscover p {
+    
+    width: 260px;
+    height: 320px;
+    line-height: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.6em;
+    word-wrap: break-word;
+    margin: 0 30px;
+    
+}
+.discoverMasFlecha {
+    
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.discoverMasFlecha span {
+    
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.discoverMasFlecha img {
+    
+    width: 50px;
+    height: 50px;
+}
+.imagenCentral {
+    
+    width: 320px;
+    height:320px;
+}
+.imagenCentral img {
+    
+    width: 100%;
+    height: 100%
+}
+.muestraSuculentasDerecha {
+    
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.muestraSuculentasDerecha img{
+    
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10%;
+}
+.soothing {
+    
+    height: 90px;
+    width: 100%;
+    background-color: #00d1b2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.soothing span{
+    
+    height: 90px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-left: 20px;
+}
+.soothing img {
+    
+    height: 60px;
+    width: auto;
+}
+
+/**********FIN PARTE CENTRAL*/
+.muestraSuculentas {
+    width: 1000px;
+    height: 200px;
+    margin-top: 30px;
+    background-color: #aae8d8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.muestraSuculentas article {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.muestraSuculentas article img {
+    height: 120px;
+    width: 120px;
+}
+.muestraSuculentas article span {
+    width: 100%;
+    margin: 1em 0 ;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+/**********FIN ULTIMA PARTE*/
+.cookie {
+    width: 1000px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+
+}
+.cookie img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cookie p {
+    width: 800px;
+    height: 40px;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 20px;
+}
+.cookie button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #00d1b2;
+    border: 2px solid black;
+    box-shadow: 5px 4px 3px black;
+}
